@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply from: 'publish-bitbucket.gradle'
 
 android {
     compileSdkVersion 23
