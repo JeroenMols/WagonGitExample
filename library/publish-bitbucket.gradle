@@ -36,14 +36,12 @@ artifacts {
 
 task lookForArtifacts {
     doLast {
-        getBase64EncodedCredentials()
-
-        def libraryName = ARTIFACT_NAME + '-' + ARTIFACT_VERSION + '.aar'
-        def repositoryPath = ARTIFACT_PACKAGE.replace(".", "/") + "/" + ARTIFACT_NAME + "/" + ARTIFACT_VERSION + "/" + libraryName
-        def repositoryUrl = 'https://api.bitbucket.org/1.0/repositories/' + COMPANY + '/' + REPOSITORY_NAME + '/raw/releases/' + repositoryPath
+        def artifactName = ARTIFACT_NAME + '-' + ARTIFACT_VERSION + '.aar'
+        def artifactPath = ARTIFACT_PACKAGE.replace(".", "/") + "/" + ARTIFACT_NAME + "/" + ARTIFACT_VERSION + "/" + artifactName
+        def repositoryUrl = 'https://api.bitbucket.org/1.0/repositories/' + COMPANY + '/' + REPOSITORY_NAME + '/raw/releases/' + artifactPath
 
         println("")
-        println("Checking if artifact already exists: " + libraryName)
+        println("Checking if artifact already exists: " + artifactName)
         println("at URL: " + repositoryUrl)
 
         def artifactExists = urlExists(repositoryUrl)
