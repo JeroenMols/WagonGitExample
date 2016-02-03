@@ -71,6 +71,5 @@ REPOSITORY_NAME=<bitbucket_reponame_here>
   ./gradlew uploadArchives
   ```
 
-
-  ## Questions
-  @molsjeroen
+## Questions
+@molsjeroen
