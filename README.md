@@ -1,7 +1,7 @@
 # WagonGitExample
 Script and sample project to use BitBucket as a private Maven repository.
 
-Please find more details in [this blogpost](http://jeroenmols.com/blog/2016/02/10/wagongit/) and see below to learn how to run the sample.
+Please find more details in [this blogpost](http://jeroenmols.com/blog/2016/02/05/wagongit/) and see below on how to [configure your own library](#configure-your-project).
 
 ## Usage
 1. Add the following plugin to the top of the [build.gradle](https://github.com/JeroenMols/WagonGitExample/blob/master/library/build.gradle) file in your library folder
