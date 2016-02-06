@@ -1,7 +1,7 @@
 # WagonGitExample
-Script and sample project to use BitBucket as a private Maven repository.
+Sample project to use BitBucket as a private Maven repository.
 
-Please find more details in [this blogpost](http://jeroenmols.com/blog/2016/02/05/wagongit/) and see below on how to [configure your own library](#configure-your-project).
+Please find more details in [this blogpost](http://jeroenmols.com/blog/2016/02/05/wagongit/) and the entire script in [this repository](https://github.com/JeroenMols/GitAsMaven).
 
 ## Usage
 In order to test out this project, first ensure that you have a `maven_repository` configured in your BitBucket account, which uses `releases` as its default branch. Next configure the project:
