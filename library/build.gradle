@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply from: 'https://raw.githubusercontent.com/JeroenMols/WagonGitExample/master/library/publish-bitbucket.gradle'
+apply from: 'https://raw.githubusercontent.com/JeroenMols/GitAsMaven/master/publish-bitbucket.gradle'
 
 android {
     compileSdkVersion 23
