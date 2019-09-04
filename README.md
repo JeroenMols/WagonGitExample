@@ -37,7 +37,7 @@ In order to test out this project, first ensure that you have a `maven_repositor
   ./gradlew uploadArchives
   ```
 
-Note: Don't commit the root level [gradle.properties](https://github.com/JeroenMols/WagonGitExample/blob/master/gradle.properties) back to version control as this would expose your password! Check [this blogpost](http://localhost:4000/blog/2015/08/13/artifactory2/) password to securely provide your username and password.
+Note: Don't commit the root level [gradle.properties](https://github.com/JeroenMols/WagonGitExample/blob/master/gradle.properties) back to version control as this would expose your password! Check [this blogpost](https://jeroenmols.com/blog/2015/08/13/artifactory2/) password to securely provide your username and password.
 
 
 
