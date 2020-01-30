@@ -14,11 +14,14 @@ allprojects {
         jcenter()
 
         maven {
+            url "https://api.bitbucket.org/jeroenmols/maven_repository/raw/releases"
             credentials {
                 username USERNAME
                 password PASSWORD
             }
-            url "https://api.bitbucket.org/1.0/repositories/jeroenmols/maven_repository/raw/releases"
+            authentication{
+                basic(BasicAuthentication)
+            }
         }
     }
 }
